@@ -129,8 +129,8 @@ function Square(props) {
             />
           </div>
           <div className="buttons">
-            <button onClick={() => this.jumpTo(0)}>Clear board</button>
-            <button onClick={() => this.nextState()}>Next State</button>
+            <button onClick={() => this.jumpTo(0)}>Clear board</button><br/>
+            <button onClick={() => this.nextState()}>Next State</button><br/>
             <button onClick={() => this.jumpTo(Math.max(this.state.stepNumber - 1, 0))}>Previous State</button>
           </div>
         </div>
